@@ -57,7 +57,7 @@ android {
 
 dependencies {
   api fileTree(dir: 'libs', include: ['YouTubeAndroidPlayerApi.jar'])
-  api fileTree(dir: 'libs', include: ['androidyoutubeplayer-core-11.0.0.aar'])
+  api fileTree(dir: 'libs', include: ['androidyoutubeplayer-core-11.0.0.jar'])
   
   implementation project(':kohii-core')
   implementation Libs.ExoPlayer.core
