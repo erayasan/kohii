@@ -252,7 +252,6 @@ object Libs {
 
   object Other {
     const val androidSvg = "com.caverock:androidsvg-aar:1.4"
-    const val youtubePlayer = "com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5"
     const val timber = "com.jakewharton.timber:timber:4.7.1"
   }
 }
