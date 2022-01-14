@@ -85,6 +85,7 @@ class PlayerViewImaBridge(
     }
 
   override fun prepare(loadSource: Boolean) {
+    adsLoader.setPlayer(player)
     if (loadSource) {
       mediaSourceFactory.setAdViewProvider(this)
       mediaSourceFactory.setAdsLoaderProvider(this)
